@@ -4,18 +4,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Egg6 {
-
+public class Needle {
     @Autowired
-    public Egg6(Needle needle) {
-        this.needle = needle;
-    }
-
-    private Needle needle;
-
+    private Deth8 death;
 
     @Override
     public String toString() {
-        return ", в яйце иголка " + needle.toString();
+        return ", смерть Кощея на игле :( " + "";
     }
 }
